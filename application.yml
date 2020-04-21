@@ -1,16 +1,14 @@
 spring:
-    profiles:
-       active:
+   profiles:
+      active:
          - dev
-
 ---
 spring:
-    profiles: dev
-       application:
-         name: cloudTestConfig-test-dev
-
+   profiles: dev
+   application:
+      name: cloudTestConfig-test-dev
 ---
 spring:
-    profiles: default
-       application:
-         name: cloudTestConfig-test-default
+   profiles: default
+   application:
+      name: cloudTestConfig-test-default
