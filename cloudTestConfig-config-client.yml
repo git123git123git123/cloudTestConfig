@@ -1,0 +1,24 @@
+spring:
+   profiles:
+      active:
+         - dev
+---
+spring:
+   profiles: dev
+   application:
+      name: cloudTestConfig-config-client
+
+eureka:
+   client:
+      service-url:
+         defaultZone: http://admin:admin@eureka-dev.com:7001/eureka
+---
+spring:
+   profiles: beta
+   application:
+      name: cloudTestConfig-config-client
+
+eureka:
+   client:
+      service-url:
+         defaultZone: http://admin:admin@eureka-beta.com:7001/eureka
