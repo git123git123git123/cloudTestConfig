@@ -8,7 +8,7 @@ server:
 spring:
    profiles: dev
    application:
-      name: cloudTestConfig-config-client222
+      name: cloudTestConfig-config-client
 
 eureka:
    client:
@@ -20,7 +20,7 @@ server:
 spring:
    profiles: beta
    application:
-      name: cloudTestConfig-config-client222
+      name: cloudTestConfig-config-client
 
 eureka:
    client:
