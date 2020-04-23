@@ -18,7 +18,7 @@ security:
 eureka:
    client:
       service-url:
-         defaultZone: http://admin:admin@eureka-7001.com:7001/eureka
+         defaultZone: http://admindev:admindev@eureka-7001.com:7001/eureka
       register-with-eureka: false
       fetch-registry: false
    instance:
@@ -42,7 +42,7 @@ security:
 eureka:
    client:
       service-url:
-         defaultZone: http://admin:admin@eureka-7001.com:7001/eureka
+         defaultZone: http://adminbeta:adminbeta@eureka-7001.com:7001/eureka
       register-with-eureka: false
       fetch-registry: false
    instance:
