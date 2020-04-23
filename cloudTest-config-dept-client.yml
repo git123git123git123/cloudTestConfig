@@ -1,0 +1,38 @@
+server:
+   port: 8001	
+eureka:
+   client:
+      service-url:
+         defaultZone: http://admin:admin@eureka-7001.com:7001/eureka,http://admin:admin@eureka-7002.com:7002/eureka,http://admin:admin@eureka-7003.com:7003/eureka
+
+info: 
+   app:
+      name: mldn-microcloud
+   company:
+      name: www.mldn.cn
+   build:
+      artifactId: ${project.artifactId}
+      version: ${project.version}
+
+mybatis:
+   mapper-locations: classpath*:com.aaa.mapper/*.xml
+
+spring:
+   application:
+      name: cloudTest-config-dept-client
+   datasource:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/cloudTest8001
+      username: root
+      password: eduask
+      initialSize: 3
+      minidle: 3
+      maxActive: 18
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      validationQuery: SELECT 1 FROM dual
+      filters: stat,wall,log4j
+
+
+
