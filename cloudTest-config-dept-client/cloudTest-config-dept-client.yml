@@ -32,7 +32,7 @@ spring:
       driverClassName: com.mysql.jdbc.Driver
       url: jdbc:mysql://localhost:3306/cloudTest8001
       username: root
-      password: eduask
+      password: '{cipher}AQBrrGghX74g2mQAvi5KBfZoHR//8SQ1IbLwvEIfyP/EKGLrJGuaWP8aAZcAtNKR/4g6umRqUa7/d+5YPDgA1x5xFP9Fwy+jhkA8STqxfsWHylT0TWYfgQwyolD2ZmqVxlRqiPtYUVb9bFjdFv0YEPGdFBJkdktp72NHvfETErLpf4mvcehmjhVF2JC/lLRc1MT9Fdat7/Z8ftv5bNm1145fbPY/n5ODC/oNy3NPR/vk8pMqP7j63ju8tRKcfw41STPBwkwnDO+t7zN3gwCEZNtYoB8FAcR8nv7FoAvSrU3sEBYbI+XVikqoyYYpXBHz2ns7AJsJSjLFpKGR83HMlUmuzYkkUqdoAyWV70YIZqKxlfmFNNpJ2rr2K68JRKT6cDk='
       initialSize: 3
       minidle: 3
       maxActive: 18
@@ -70,7 +70,7 @@ spring:
       driverClassName: com.mysql.jdbc.Driver
       url: jdbc:mysql://localhost:3306/cloudTest8001
       username: root
-      password: eduask
+      password: '{cipher}AQBrrGghX74g2mQAvi5KBfZoHR//8SQ1IbLwvEIfyP/EKGLrJGuaWP8aAZcAtNKR/4g6umRqUa7/d+5YPDgA1x5xFP9Fwy+jhkA8STqxfsWHylT0TWYfgQwyolD2ZmqVxlRqiPtYUVb9bFjdFv0YEPGdFBJkdktp72NHvfETErLpf4mvcehmjhVF2JC/lLRc1MT9Fdat7/Z8ftv5bNm1145fbPY/n5ODC/oNy3NPR/vk8pMqP7j63ju8tRKcfw41STPBwkwnDO+t7zN3gwCEZNtYoB8FAcR8nv7FoAvSrU3sEBYbI+XVikqoyYYpXBHz2ns7AJsJSjLFpKGR83HMlUmuzYkkUqdoAyWV70YIZqKxlfmFNNpJ2rr2K68JRKT6cDk='
       initialSize: 3
       minidle: 3
       maxActive: 18
