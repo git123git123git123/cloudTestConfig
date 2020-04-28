@@ -13,7 +13,7 @@ spring:
 eureka:
    client:
       service-url:
-         defaultZone: http://admin:admin@eureka-dev.com:7001/eureka
+         defaultZone: http://admindev:admindev@eureka-config.com:7301/eureka
 ---
 server:
    port: 8301
@@ -25,4 +25,4 @@ spring:
 eureka:
    client:
       service-url:
-         defaultZone: http://admin:admin@eureka-beta.com:7001/eureka
+         defaultZone: http://admindev:admindev@eureka-config.com:7301/eureka
